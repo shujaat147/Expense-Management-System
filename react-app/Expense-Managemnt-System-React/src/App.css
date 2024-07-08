@@ -1,0 +1,51 @@
+html,
+body {
+  height: fit-content;
+  width: 100vw;
+  overflow-x: hidden;
+  background-image: url("./assets/image.png");
+  background-size: auto;
+  background-repeat: repeat;
+  background-color: rgba(11, 20, 26, 1);
+}
+
+.form-control {
+  background-color: #212529 !important;
+  color: white !important;
+}
+
+.form-control:focus {
+  background-color: #212529 !important;
+}
+
+::placeholder {
+  color: rgb(194, 193, 193) !important;
+}
+
+::-ms-input-placeholder {
+  color: rgb(194, 193, 193) !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.line {
+  padding-bottom: 1rem !important;
+  border-image: linear-gradient(to right, #504DFF, #fff6f6) 1 !important;
+  border-bottom: 3px solid !important;
+}
+
+
+@media print {
+  .print-hide {
+    display: none !important;
+  }
+
+  .colorWhite, .colorWhite:hover {
+    background-color: white !important;
+    background: white !important;
+  }
+}
