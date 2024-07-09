@@ -3,7 +3,7 @@ body {
   height: fit-content;
   width: 100vw;
   overflow-x: hidden;
-  background-image: url("./assets/image.png");
+  background-image: url("/Expense-Management-System/assets/image.png");
   background-size: auto;
   background-repeat: repeat;
   background-color: rgba(11, 20, 26, 1);
